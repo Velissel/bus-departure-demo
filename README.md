@@ -15,4 +15,6 @@ Javascript is already committed, but if you want to compile it your self, run:
 
     grunt
   
+After you start the server with: npm start, the website is on localhost:3000
+
 At last, Have a good day!
