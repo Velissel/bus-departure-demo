@@ -6,11 +6,13 @@ I know there are a lot of react google map integration, but, as a practice, I de
 If you do not have NodeJS and npm installed, please download from official website
 
 After you have NodeJS and npm installed, install bower using npm, then run the following command:
-  npm install
-  bower install
+
+    npm install
+  
+    bower install
 
 Javascript is already committed, but if you want to compile it your self, run:
 
-  grunt
+    grunt
   
 At last, Have a good day!
