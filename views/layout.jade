@@ -1,0 +1,14 @@
+doctype html
+html
+	head
+		title= title
+		link(rel='stylesheet', href='/css/demo.css')
+		body
+			block content
+			script(src='https://maps.googleapis.com/maps/api/js?callback=GMapReady' async)
+			//- use when dev
+			script(src='/scripts/demo.libs.compiled.js')
+			script(src='/scripts/demo.app.compiled.js')
+			script(src='/scripts/demo.jsx.compiled.js')
+			//- use when production
+			//- script(src='/scripts/demo.min.js')

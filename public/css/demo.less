@@ -1,0 +1,64 @@
+@import (inline) './../../app/libs/bootstrap/dist/css/bootstrap.min.css';
+
+.navbar {
+	-webkit-border-radius: 0;
+	-moz-border-radius:    0;
+	border-radius:         0;
+
+	-moz-background-clip:    padding;
+	-webkit-background-clip: padding-box;
+	background-clip:         padding-box;
+	.navbar-nav {
+		margin: 0 auto;
+	}
+}
+#map {
+	height: 500px;
+	position: relative;
+	> div {
+		height: 100%;
+	}
+	.map-root {
+		height: 100%;
+	}
+	.overlay {
+		background-color: rgba(0, 0, 0, 0.5);
+		position: absolute;
+		display: none;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		z-index: 9999;
+		&.on {
+			display: block;
+		}
+	}
+}
+
+.thumbnail {
+	h3 {
+		margin-top: 0px;
+	}
+}
+
+.bus-arrival-bar {
+	display: table;
+	width: 100%;
+	table-layout: fixed;
+	&+.bus-arrival-bar {
+		margin-top: 15px;
+	}
+	> div {
+		display: table-cell;
+		vertical-align: middle;
+		padding: 10px;
+		&:first-child {
+			width: 15px;
+		}
+		&:last-child {
+			width: 130px;
+			text-align: center;
+		}
+	}
+}

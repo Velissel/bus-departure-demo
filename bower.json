@@ -1,0 +1,20 @@
+{
+  "name": "react-node-bus-departure-demo",
+  "version": "0.0.0",
+  "authors": [
+    "Velissel"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "eventEmitter": "~4.2.11",
+    "react": "~0.13.3"
+  }
+}
