@@ -10,6 +10,7 @@ After you have NodeJS and npm installed, install bower using npm, then run the f
   bower install
 
 Javascript is already committed, but if you want to compile it your self, run:
+
   grunt
   
-Have a good day!
+At last, Have a good day!
